@@ -70,4 +70,4 @@ npm run build
 
 ## Author
 
-Lucky
+sreeja kasukurthi
