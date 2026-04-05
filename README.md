@@ -1,9 +1,7 @@
 # Finance Dashboard UI (React)
 
 Live Demo:
-https://finance-dashboard-react-lime.vercel.app/
-
-
+https://finance-dashboard-ruby-omega.vercel.app
 ## Overview
 
 This project is a Finance Dashboard web application built using React and JavaScript. The dashboard allows users to manage financial transactions, view analytics, track income and expenses, and view financial insights through charts and summaries.
