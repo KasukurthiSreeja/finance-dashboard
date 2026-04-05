@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.txn {
+  background: white;
+  margin: 5px;
+  padding: 10px;
+}
