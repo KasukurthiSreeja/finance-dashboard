@@ -1,16 +1,75 @@
-# React + Vite
+# Finance Dashboard UI (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo:
+https://finance-dashboard-react-lime.vercel.app/
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Overview
 
-## React Compiler
+This project is a Finance Dashboard web application built using React and JavaScript. The dashboard allows users to manage financial transactions, view analytics, track income and expenses, and view financial insights through charts and summaries.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project focuses on frontend development, component structure, state management, and UI/UX design.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Dashboard overview with financial summary
+* Income, Expenses, Balance, Savings cards
+* Balance trend chart
+* Expense category pie chart
+* Transaction management (Add / View)
+* Role-based UI (Admin / Viewer)
+* Export transactions as CSV and JSON
+* Financial insights and analytics
+* Budget tracking
+* Savings goal tracking
+* Recent activity section
+* Dark mode toggle
+* Settings page with user preferences
+* Collapsible sidebar navigation
+* Data persistence using Local Storage
+* Responsive table layout
+
+## Technologies Used
+
+* React
+* JavaScript
+* Context API
+* React Router
+* Chart.js
+* Local Storage
+* CSS / Inline Styling
+* Vite
+
+## Project Structure
+
+src/
+
+* components/
+* pages/
+* context/
+* data/
+* utils/
+* routes/
+* App.jsx
+* main.jsx
+
+## Installation & Run
+
+1. Clone the repository
+2. Install dependencies
+3. Run the development server
+
+```bash
+npm install
+npm run dev
+```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+## Author
+
+Lucky
